@@ -1,0 +1,67 @@
+#orderOnline1{
+    width:100%;
+    padding:0px;
+    margin:0px;
+    display:flex;
+    flex-direction:column;
+    background: #F2EFE9;
+}
+
+#orderOnline1 h2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+    text-align: center;
+    font-size: 50px;
+}
+
+#orderOnline1 ul{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top:auto;
+    margin-bottom: auto;
+    padding-right:40px;
+}
+
+
+
+#orderOnline1 a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight:500;
+    font-size: 5vw;
+    transition: 0.5s;
+}
+
+#orderOnline1 a:hover {
+    font-size: 12vh;
+    transition: 1s;
+}
+
+@media all and (max-width: 1000px) {
+    #orderOnline1 ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #orderOnline1 a{
+        display: block;
+        padding-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        width:80%;
+        text-align: center;
+        font-size: 10vh;
+    }
+
+    #orderOnline1 a:hover{
+        font-size: 12vh;
+    }
+
+}

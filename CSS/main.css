@@ -1,0 +1,99 @@
+body{
+    width:100%;
+    background-color: #ffffff;
+    margin:0px;
+    padding:0px;
+}
+header {
+    background:#D7C07E;
+    padding:2px 1px;
+    top:0;
+    width:100%;
+    height:.2%;
+    z-index: 1111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    width:100%;
+    padding:0px;
+    margin:0px;
+}
+
+header h1{
+    font-family: "Algerian";
+    text-align:left ;
+    font-size: 50px;
+}
+
+.main-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:2vw;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    padding: 5% 10%;
+    border:none;
+    display: inline-block;
+    padding:5px;
+    transition:all linear 0.5s;
+    margin-right:20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight:500;
+    padding: 5px;
+    max-font-size: 10px;
+    font-size: 2.3vh;
+    font-family: "Calibri Light";
+}
+
+article{
+    display: flex;
+    min-height: 100vh;
+    width: 100%
+}
+
+#home1{
+    background:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url("../img/background.jpeg") no-repeat center center /cover ;
+}
+
+hr{
+    width:100%;
+    padding:0px;
+    margin:0px;
+    height:4px;
+    border:0px;
+    background-color: white;
+}
+
+@media all and (max-width: 725px){
+    #nav1{
+        display: none;
+    }
+
+    .main-head {
+        padding: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:60%;
+        text-align: center;
+    }
+
+    .main-head h1{
+        text-align: center;
+    }
+}
+
