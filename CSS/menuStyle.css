@@ -1,3 +1,34 @@
+#menu1 {
+    width:100%;
+    height: 100%;
+    padding:0px;
+    margin:0px;
+    display:grid;
+    grid-template-row: 5% 5% 85%;
+    font-family: "Open Sans", sans-serif;
+    /* Or use any other sans-serif font that is easy to read */
+    font-size: 18px;
+    /* Adjust the font size as needed */
+    line-height: 1.5;
+    color: #4c3324;
+    background-color: #F2EFE9;
+}
+
+
+
+#menu1 > h2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+    text-align: center;
+    font-size: 50px;
+}
+
+#menu{
+    display:inline-grid;
+    grid-template-columns: auto auto auto;
+}
 
 #menu > h1{
     grid-column: 1/4;
