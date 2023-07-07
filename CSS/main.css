@@ -5,7 +5,8 @@ body{
     padding:0px;
 }
 header {
-    background:#D7C07E;
+    background:#242124;
+    color: #f7f7f7;
     padding:2px 1px;
     top:0;
     width:100%;
@@ -27,6 +28,8 @@ header h1{
     text-align:left ;
     font-size: 50px;
 }
+
+
 
 .main-head{
     display: flex;
@@ -51,7 +54,7 @@ nav li{
 
 nav li a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight:500;
     padding: 5px;
     max-font-size: 10px;
@@ -63,10 +66,6 @@ article{
     display: flex;
     min-height: 100vh;
     width: 100%
-}
-
-#home1{
-    background:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url("../img/background.jpeg") no-repeat center center /cover ;
 }
 
 hr{
@@ -94,6 +93,7 @@ hr{
 
     .main-head h1{
         text-align: center;
+        margin-bottom: 0px;
     }
 }
 
