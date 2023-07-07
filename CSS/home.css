@@ -4,10 +4,23 @@
     margin:0px;
 }
 
+
+#home1{
+    background:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url("../img/background.jpeg") no-repeat center center /cover ;
+}
+
 #home1 p{
     color:#f7f7f7;
-    padding-left:40vw;
-    padding-right:5vw;
-    font-size:4.5vh;
-    font-family: Century Gothic ;
+    padding-left:6vw;
+    padding-right:6vw;
+    font-size: 3.3vw;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif ;
+}
+
+@media all and (max-width: 725px){
+
+    #home1 p{
+        font-size: 25px;
+    }
 }
